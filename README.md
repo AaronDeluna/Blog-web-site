@@ -27,6 +27,20 @@
    ```bash
    git clone https://github.com/yourusername/post-website.git
 
+2. **Соберите проект с помощью Maven:**
+   
+   ```bash
+   mvn clean install
+
+3. **Запустите приложение:**
+
+   ```bash
+   mvn spring-boot:run
+
+4. **Откройте веб-браузер:**
+   
+   перейдите по адресу http://localhost:8080.
+
 ## Использование
 
 Перейдите на http://localhost:8080, чтобы просмотреть домашнюю страницу со всеми блоговыми записями.
